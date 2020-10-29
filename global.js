@@ -1,0 +1,1 @@
+fetch('./template.html').then(html => html.text().then(res => document.documentElement.insertAdjacentHTML('afterbegin',res)));
